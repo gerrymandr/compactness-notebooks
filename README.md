@@ -8,7 +8,7 @@ docker build -t mggg-compact .
 ````
 #### To Run:
 ````bash
-docker run -it -p 8888:8888 -v $PWD/Notebooks:/Notebooks -w="/Notebooks" mggg-compact
+docker run -it -p 8888:8888 -v $PWD/Notebooks:/home/jovyan/Notebooks -w="/home/jovyan/" mggg-compact
 ````
 
 Then, connect to the link described in the output.
