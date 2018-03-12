@@ -4,11 +4,11 @@ This repository contains iPython Notebooks intended to measure the compactness o
 # Usage
 #### To Build:
 ````bash
-docker build -t mggg-compact .
+./build.sh
 ````
 #### To Run:
 ````bash
-docker run -it -p 8888:8888 -v $PWD/Notebooks:/home/jovyan/Notebooks -w="/home/jovyan/" mggg-compact
+./run.sh
 ````
 
 Then, connect to the link described in the output.
