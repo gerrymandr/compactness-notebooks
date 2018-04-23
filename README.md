@@ -1,5 +1,5 @@
 # Description
-This repository contains iPython Notebooks intended to measure the compactness of districts.
+This repository contains iPython Notebooks intended to measure the compactness of districts. Credentials are stored in a local plaintext file with the access key followed by the secret access key.
 
 # Usage
 #### To Build:
